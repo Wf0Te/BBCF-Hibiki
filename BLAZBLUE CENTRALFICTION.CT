@@ -4,55 +4,34 @@
     <LunarEntry>
       <ID>57</ID>
       <Description>"p1Base"</Description>
-      <LastState Value="9602572" RealAddress="271F7A80"/>
+      <LastState Value="9602572" RealAddress="1FD2AA80"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>(pos_x) - 268</Address>
+      <Address>"BBCF.exe" + 8609A0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
       <LunarEntries>
-        <LunarEntry>
-          <ID>80</ID>
-          <Description>"pad_0004"</Description>
-          <LastState Value="114398" RealAddress="271F7A84"/>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>4 Bytes</VariableType>
-          <Address>+4</Address>
-        </LunarEntry>
         <LunarEntry>
           <ID>79</ID>
           <Description>"unknownStatus1"</Description>
-          <LastState Value="1" RealAddress="271F7A90"/>
+          <LastState Value="1" RealAddress="1FD2AA90"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+10</Address>
         </LunarEntry>
         <LunarEntry>
-          <ID>81</ID>
-          <Description>"pad_0014"</Description>
-          <LastState Value="7" RealAddress="271F7A94"/>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>4 Bytes</VariableType>
-          <Address>+14</Address>
-        </LunarEntry>
-        <LunarEntry>
           <ID>82</ID>
           <Description>"stateChangedCount"</Description>
-          <LastState Value="624" RealAddress="271F7A98"/>
+          <LastState Value="1946" RealAddress="1FD2AA98"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+18</Address>
         </LunarEntry>
         <LunarEntry>
-          <ID>83</ID>
-          <Description>"pad_001C"</Description>
-          <LastState Value="0" RealAddress="271F7A9C"/>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>4 Bytes</VariableType>
-          <Address>+1C</Address>
-        </LunarEntry>
-        <LunarEntry>
           <ID>78</ID>
           <Description>"charIndex"</Description>
-          <LastState Value="28" RealAddress="271F7AB4"/>
+          <LastState Value="28" RealAddress="1FD2AAB4"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+34</Address>
@@ -60,7 +39,7 @@
         <LunarEntry>
           <ID>84</ID>
           <Description>"pJonbEntryBegin"</Description>
-          <LastState Value="352673939" RealAddress="271F7ACC"/>
+          <LastState Value="343738011" RealAddress="1FD2AACC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+4C</Address>
@@ -68,7 +47,7 @@
         <LunarEntry>
           <ID>76</ID>
           <Description>"sprite_img"</Description>
-          <LastState RealAddress="15055F26"/>
+          <LastState RealAddress="147D052E"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>20</Length>
@@ -83,18 +62,15 @@
         <LunarEntry>
           <ID>58</ID>
           <Description>"pos_x"</Description>
-          <LastState Value="4294803193" RealAddress="271F7CE8"/>
+          <LastState Value="731349" RealAddress="1FD2ACE8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
-          <Address>"BBCF.exe" + 8609A0</Address>
-          <Offsets>
-            <Offset>268</Offset>
-          </Offsets>
+          <Address>+268</Address>
         </LunarEntry>
         <LunarEntry>
           <ID>59</ID>
           <Description>"pos_y"</Description>
-          <LastState Value="0" RealAddress="271F7CEC"/>
+          <LastState Value="0" RealAddress="1FD2ACEC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+26C</Address>
@@ -102,7 +78,7 @@
         <LunarEntry>
           <ID>60</ID>
           <Description>"scaleX"</Description>
-          <LastState Value="1000" RealAddress="271F7D04"/>
+          <LastState Value="1000" RealAddress="1FD2AD04"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+284</Address>
@@ -110,7 +86,7 @@
         <LunarEntry>
           <ID>61</ID>
           <Description>"scaleY"</Description>
-          <LastState Value="1000" RealAddress="271F7D08"/>
+          <LastState Value="1000" RealAddress="1FD2AD08"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+288</Address>
@@ -118,7 +94,7 @@
         <LunarEntry>
           <ID>62</ID>
           <Description>"prevHP"</Description>
-          <LastState Value="0" RealAddress="271F8450"/>
+          <LastState Value="0" RealAddress="1FD2B450"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+9D0</Address>
@@ -126,7 +102,7 @@
         <LunarEntry>
           <ID>63</ID>
           <Description>"currHP"</Description>
-          <LastState Value="11000" RealAddress="271F8454"/>
+          <LastState Value="11000" RealAddress="1FD2B454"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+9D4</Address>
@@ -134,7 +110,7 @@
         <LunarEntry>
           <ID>64</ID>
           <Description>"maxHP"</Description>
-          <LastState Value="11000" RealAddress="271F8458"/>
+          <LastState Value="11000" RealAddress="1FD2B458"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+9D8</Address>
@@ -142,7 +118,7 @@
         <LunarEntry>
           <ID>65</ID>
           <Description>"lastAction"</Description>
-          <LastState RealAddress="271F9A74"/>
+          <LastState RealAddress="1FD2CA74"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>20</Length>
@@ -154,7 +130,7 @@
         <LunarEntry>
           <ID>66</ID>
           <Description>"currAction"</Description>
-          <LastState RealAddress="271F9AF0"/>
+          <LastState RealAddress="1FD2CAF0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>20</Length>
@@ -166,7 +142,7 @@
         <LunarEntry>
           <ID>77</ID>
           <Description>"charAbbr"</Description>
-          <LastState RealAddress="271F9CC8"/>
+          <LastState RealAddress="1FD2CCC8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>4</Length>
@@ -178,7 +154,7 @@
         <LunarEntry>
           <ID>67</ID>
           <Description>"barrier"</Description>
-          <LastState Value="10000" RealAddress="271FD584"/>
+          <LastState Value="10000" RealAddress="1FD30584"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>+5B04</Address>
@@ -186,123 +162,6 @@
       </LunarEntries>
     </LunarEntry>
   </LunarEntries>
-  <LunarCodes>
-    <CodeEntry Color="20000000">
-      <Description>Code :mov eax,[ecx]</Description>
-      <AddressString>BBCF.exe+1C1709</AddressString>
-      <Before>
-        <Byte>85</Byte>
-        <Byte>84</Byte>
-        <Byte>20</Byte>
-        <Byte>5C</Byte>
-        <Byte>00</Byte>
-      </Before>
-      <Actual>
-        <Byte>8B</Byte>
-        <Byte>01</Byte>
-      </Actual>
-      <After>
-        <Byte>FF</Byte>
-        <Byte>75</Byte>
-        <Byte>08</Byte>
-        <Byte>FF</Byte>
-        <Byte>90</Byte>
-      </After>
-    </CodeEntry>
-    <CodeEntry Color="20000000">
-      <Description>Change of mov [ebx+1C],eax</Description>
-      <AddressString>BBCF.exe+150C55</AddressString>
-      <Before>
-        <Byte>03</Byte>
-        <Byte>00</Byte>
-        <Byte>80</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-      </Before>
-      <Actual>
-        <Byte>89</Byte>
-        <Byte>43</Byte>
-        <Byte>1C</Byte>
-      </Actual>
-      <After>
-        <Byte>0F</Byte>
-        <Byte>84</Byte>
-        <Byte>87</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-      </After>
-    </CodeEntry>
-    <CodeEntry Color="20000000">
-      <Description>pos :mov eax,[esi+0000026C]</Description>
-      <AddressString>BBCF.exe+16DAC5</AddressString>
-      <Before>
-        <Byte>02</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-        <Byte>5E</Byte>
-        <Byte>C3</Byte>
-      </Before>
-      <Actual>
-        <Byte>8B</Byte>
-        <Byte>86</Byte>
-        <Byte>6C</Byte>
-        <Byte>02</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-      </Actual>
-      <After>
-        <Byte>5E</Byte>
-        <Byte>C3</Byte>
-        <Byte>CC</Byte>
-        <Byte>CC</Byte>
-        <Byte>CC</Byte>
-      </After>
-    </CodeEntry>
-    <CodeEntry Color="20000000">
-      <Description>Code :mov eax,[esi]</Description>
-      <AddressString>08AC7950</AddressString>
-      <Before>
-        <Byte>00</Byte>
-        <Byte>0F</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-      </Before>
-      <Actual>
-        <Byte>8B</Byte>
-        <Byte>06</Byte>
-      </Actual>
-      <After>
-        <Byte>FF</Byte>
-        <Byte>46</Byte>
-        <Byte>0C</Byte>
-        <Byte>00</Byte>
-        <Byte>00</Byte>
-      </After>
-    </CodeEntry>
-    <CodeEntry Color="20000000">
-      <Description>framecounter :mov eax,[esi]</Description>
-      <AddressString>DINPUT8.dll+89AFC</AddressString>
-      <Before>
-        <Byte>E8</Byte>
-        <Byte>65</Byte>
-        <Byte>EF</Byte>
-        <Byte>65</Byte>
-        <Byte>58</Byte>
-      </Before>
-      <Actual>
-        <Byte>8B</Byte>
-        <Byte>06</Byte>
-      </Actual>
-      <After>
-        <Byte>FF</Byte>
-        <Byte>46</Byte>
-        <Byte>0C</Byte>
-        <Byte>FF</Byte>
-        <Byte>25</Byte>
-      </After>
-    </CodeEntry>
-  </LunarCodes>
   <UserdefinedSymbols/>
   <Structures StructVersion="2">
     <Structure Name="game_Stat_PCoin" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
