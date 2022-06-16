@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{f66e7451-5e75-40f5-83a6-631c96265edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{0bfa7d36-42a5-48a1-b94f-a3e077c6c287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{3c289011-0184-43c1-94a0-3ee424104f13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mem\memory.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\modules\console.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mem\memory.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\Player.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\modules.h">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\BBCF.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
